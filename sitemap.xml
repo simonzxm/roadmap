@@ -10,6 +10,9 @@
         <loc>https://roadmap.xmzheng.cn/1-1/cs50x/</loc>
       </url>
       <url>
+        <loc>https://roadmap.xmzheng.cn/1-1/missing/</loc>
+      </url>
+      <url>
         <loc>https://roadmap.xmzheng.cn/1-1/iics/</loc>
       </url>
       <url>
@@ -22,6 +25,27 @@
         <loc>https://roadmap.xmzheng.cn/1-2/overview/</loc>
       </url>
       <url>
+        <loc>https://roadmap.xmzheng.cn/1-2/cs61c/</loc>
+      </url>
+      <url>
+        <loc>https://roadmap.xmzheng.cn/1-2/isp/</loc>
+      </url>
+      <url>
+        <loc>https://roadmap.xmzheng.cn/1-2/dlco/</loc>
+      </url>
+      <url>
+        <loc>https://roadmap.xmzheng.cn/1-2/dlcoe/</loc>
+      </url>
+      <url>
+        <loc>https://roadmap.xmzheng.cn/1-2/ap/</loc>
+      </url>
+      <url>
         <loc>https://roadmap.xmzheng.cn/1-2/bp/</loc>
+      </url>
+      <url>
+        <loc>https://roadmap.xmzheng.cn/2-1/overview/</loc>
+      </url>
+      <url>
+        <loc>https://roadmap.xmzheng.cn/2-1/csapp/</loc>
       </url>
 </urlset>
