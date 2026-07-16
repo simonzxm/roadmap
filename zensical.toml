@@ -29,6 +29,10 @@ site_author = "XM Zheng"
 # Read more: https://zensical.org/docs/setup/basics/#site_url
 site_url = "https://roadmap.xmzheng.cn/"
 
+repo_url = "https://github.com/simonzxm/roadmap"
+repo_name = "simonzxm/roadmap"
+repo = "fontawesome/brands/github"
+
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
 #
