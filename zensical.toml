@@ -65,6 +65,10 @@ nav = [
     "1-2/ap.md",
     "1-2/bp.md",
   ] },
+  { "大二上" = [
+    "2-1/overview.md",
+    "2-1/csapp.md",
+  ] },
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
