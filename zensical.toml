@@ -49,12 +49,18 @@ nav = [
   { "大一上" = [
     "1-1/overview.md",
     "1-1/cs50x.md",
+    "1-1/missing.md",
     "1-1/iics.md",
     "1-1/eiics.md",
     "1-1/sicp.md",
   ] },
   { "大一下" = [
     "1-2/overview.md",
+    "1-2/cs61c.md",
+    "1-2/isp.md",
+    "1-2/dlco.md",
+    "1-2/dlcoe.md",
+    "1-2/ap.md",
     "1-2/bp.md",
   ] },
 ]
