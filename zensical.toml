@@ -45,7 +45,9 @@ Copyright &copy; 2026 XM Zheng
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "前言" = "index.md" },
+  { "前言" = [
+    "index.md",
+  ] },
   { "大一上" = [
     "1-1/overview.md",
     "1-1/cs50x.md",
