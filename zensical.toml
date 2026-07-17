@@ -337,6 +337,23 @@ toggle.name = "切换到浅色模式"
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
 
+[project.extra.analytics]
+provider = "google"
+property = "G-YHCD3LCYDZ"
+
+[project.extra.analytics.feedback]
+title = "这个页面有帮助吗？"
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/thumb-up-outline"
+name = "这个页面很有帮助"
+data = 1
+note = "感谢您的反馈！"
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/thumb-down-outline"
+name = "这个页面还可以改进"
+data = 0
+note = "感谢您的反馈！"
+
 # ----------------------------------------------------------------------------
 # In this section you can configure the Markdown extensions that are used when
 # rendering your documentation. We enable the most useful extensions by default,
