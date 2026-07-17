@@ -4,7 +4,7 @@ icon: lucide/square-play
 
 # MIT The Missing Semester
 
-## 课程信息
+## 课程信息 {#detail}
 
 这课，不常见啊。又是一门比较纯粹的入门课吧。
 
@@ -15,7 +15,7 @@ icon: lucide/square-play
 今年（2026）更新了 [Agentic Coding](https://missing.csail.mit.edu/2026/agentic-coding/) 部分，
 看起来很有趣的样子。
 
-## 课程评价
+## 课程评价 {#review}
 
 非常适合作为一门入门的课程，能帮助了解很多常用的工具，比如 Shell Git Vim SSH 等，还有很多开发时应注意的，
 可以说是一门教你怎么使用工具的课程。在结束了十二年的学习后，大部分人都是贴近应试思维的，可能没法很快适应，

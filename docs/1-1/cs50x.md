@@ -4,7 +4,7 @@ icon: lucide/square-play
 
 # Harvard CS50x
 
-## 课程信息
+## 课程信息 {#detail}
 
 你也许发现了这不是南京大学的课程，不过我希望他能出现在这里。
 
@@ -12,7 +12,7 @@ icon: lucide/square-play
 
 课程资料和 OJ 都是公开的，哪里都能找到，可以随便学。
 
-## 课程评价
+## 课程评价 {#review}
 
 这是一门计算机的基础课程，他涵盖了 C Python SQL HTML CSS JavaScript 等内容的基础知识，课程内容非常丰富。
 

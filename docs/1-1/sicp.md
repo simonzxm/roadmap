@@ -4,7 +4,7 @@ icon: lucide/bookmark-plus
 
 # 计算机程序的构造与解释
 
-## 课程信息
+## 课程信息 {#detail}
 
 本课程为大一上学期计科大班的专业课（和 [程序设计基础](../1-2/bp.md) 为二选一的关系），
 只在每年的上学期在鼓楼开设。
@@ -19,7 +19,7 @@ icon: lucide/bookmark-plus
 
 我的作业仓库：<https://github.com/nju-cs-2025-xmzheng/nju-sicp-2025-fall>
 
-## 课程评价
+## 课程评价 {#review}
 
 知乎上有很多对这门课的评价，可以看一看。以下为本人的评价。
 
