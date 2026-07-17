@@ -1,5 +1,6 @@
 ---
 comments: false
+hide: [feedback]
 ---
 
 # 前言

@@ -1,6 +1,5 @@
 ---
 icon: lucide/house
-comments: false
 ---
 
 # Overview
