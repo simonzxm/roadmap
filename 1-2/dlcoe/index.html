@@ -893,6 +893,25 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-bookmark" viewBox="0 0 24 24"><path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  数字逻辑与计算机组成实验
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="././" class="md-nav__link md-nav__link--active">
         
   
@@ -910,6 +929,48 @@
   
 
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        课程信息
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        课程评价
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1119,6 +1180,11 @@
                       
                     
                     
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
                   
                   <div class="md-sidebar__inner">
                     
@@ -1130,6 +1196,36 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        课程信息
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        课程评价
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1154,6 +1250,35 @@
 
 
 <h1 id="_1">数字逻辑与计算机组成实验<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">课程信息<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><a href="../dlco/">DLCO</a> 对应的实验课程，主要使用 Verilog 在开发板上完成。</p>
+<p>课程网站：<a href="https://cslab-cms.nju.edu.cn/paths/wtg5fn6p">https://cslab-cms.nju.edu.cn/paths/wtg5fn6p</a></p>
+<p>课程资源：<a href="https://box.nju.edu.cn/d/c3535aad6c0641248a34/">https://box.nju.edu.cn/d/c3535aad6c0641248a34/</a></p>
+<p>我的作业仓库：<a href="https://github.com/nju-cs-2025-xmzheng/nju-dlco-exp-2026-spring">https://github.com/nju-cs-2025-xmzheng/nju-dlco-exp-2026-spring</a></p>
+<p>这门课仅在仙林开课，所以我是跨校区修读的。</p>
+<h2 id="_3">课程评价<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>不知道能不能算一个水课，因为他没有考试，上课也不用每天去。你的所有分数都由实验和作业组成，而这些内容都是可以直接用
+AI 的，所以如果写不出来了也可以摆烂（）你可以看到我的作业仓库的
+<a href="https://github.com/nju-cs-2025-xmzheng/nju-dlco-exp-2026-spring/tree/develop-float/lab12/sys"><code>develop-float</code> 分支</a>
+，他有一个完全由 Claude Opus 4.8 编写的 RV32（乘除法）和 RV32F（浮点数）的支持（当然这个不是课程要求），
+所以其实这个你可以全部拿 AI 写（不是）。另外，在我完成这个课程的时候，实测 GPT 5.5 是无法胜任上面这个任务，
+不过你还是可以用它完成课内要求的所有任务。当然，现在应该有更多模型能完成了，<del>那我们到底还有啥用呢</del>。</p>
+<p>关于环境配置，我建议是只在上板的时候使用 Vivado，其他时候都用 IVerilog 就行。Vivado 建议使用上面课程资源里的，
+<code>.tar.gz</code> 压缩包里面是有 Windows 的，不是只有 Linux。对于其他环境的配置，你可以参考
+<a href="https://blog.xmzheng.cn/posts/something-about-vivado-and-verilog/">我的 Blog</a> 写的。</p>
+<p>如果你在犹豫是否要选这门课，并且你已经在仙林了，我的建议是：首先，这是一门核心课，他很水，给分非常好
+（我的第一门理论值），应该是可以计入保研，所以你如果是大卷王，我是建议选这个的；但是在另一个方面讲，
+一般选这门课的人都是在学完 <a href="../dlco/">DLCO</a> 后的下个学期修的，这个时候可能你已经对硬件感到绝望了，
+再花可能一个学期的时间去学一个诡异的硬件描述语言（HDL），用一个难用的 IDE（对这个 Vivado 自己的 GUI 特别难用），
+可能你会后悔选的，并且这门课的退课率也不低，因为上手门槛高。在这个情况下，我建议除非你真的感兴趣，
+或者真的很想来玩一下（比如我，虽然我是必修哎），不然不要选这门课。当然，如果你是信计的，那祝你好运。</p>
+<p>我这门课是和理论课在同一个学期选的，期末的时候实验压力会有点大，建议是所有实验都最好提前完成，不要拖到期末周，
+不然会很被动。另外，秋季学期（大班）和春季学期（信计班，重修班）的给分是有区别的，当然这两个你都可以选，
+因为重修班（我上的）人真的特别少，最后大概六个人，也没有人合作最后的大作业（25 Fall 几乎全部都是合作的），
+所以验收要求比较低，给分好一点。大班验收标准会高一点，疑似会卡优秀率之类的，重修班人少显然就不能这么干了，
+所以我建议最好是在 2-2 左右的时候学这个，2-1 学理论课（信计培养方案是 3-1 理论课 3-2 实验课，
+这么晚学我感觉真是一点用都没有啊，这个时候 ICS 和 OS 都上完了），这样应该会比较舒服。当然，你可以学我一起修这两个，
+然后你就会发现理论课的实验真的非常糟糕，还是 Verilog 写的舒服。</p>
 
 
 
