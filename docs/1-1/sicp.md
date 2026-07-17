@@ -19,6 +19,8 @@ icon: lucide/bookmark-plus
 
 我的作业仓库：<https://github.com/nju-cs-2025-xmzheng/nju-sicp-2025-fall>
 
+作业是 OJ，期中期末都是笔试。
+
 ## 课程评价
 
 知乎上有很多对这门课的评价，可以看一看。以下为本人的评价。
