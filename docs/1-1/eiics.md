@@ -4,7 +4,7 @@ icon: lucide/bookmark
 
 # 信息与计算科学导论实验
 
-## 课程信息 {#detail}
+## 课程信息 {#information}
 
 这门课和 [信息与计算科学导论](iics.md) 没啥联系，主要讲的是程序设计和一些简单的算法。
 

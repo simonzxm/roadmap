@@ -4,7 +4,7 @@ icon: lucide/square-play
 
 # Harvard CS50x
 
-## 课程信息 {#detail}
+## 课程信息 {#information}
 
 你也许发现了这不是南京大学的课程，不过我希望他能出现在这里。
 

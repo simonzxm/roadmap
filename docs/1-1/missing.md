@@ -4,7 +4,7 @@ icon: lucide/square-play
 
 # MIT The Missing Semester
 
-## 课程信息 {#detail}
+## 课程信息 {#information}
 
 这课，不常见啊。又是一门比较纯粹的入门课吧。
 

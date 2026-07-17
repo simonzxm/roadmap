@@ -4,7 +4,7 @@ icon: lucide/bookmark
 
 # 信息与计算科学导论
 
-## 课程信息 {#detail}
+## 课程信息 {#information}
 
 这门课是和软院一起开的，可以说是离散改了个名，讲了集合论和递归。
 

@@ -4,7 +4,7 @@ icon: lucide/bookmark
 
 # 数字逻辑与计算机组成实验
 
-## 课程信息 {#detail}
+## 课程信息 {#information}
 
 [DLCO](dlco.md) 对应的实验课程，主要使用 Verilog 在开发板上完成。
 
