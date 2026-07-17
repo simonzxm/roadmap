@@ -31,6 +31,7 @@ site_url = "https://roadmap.xmzheng.cn/"
 
 repo_url = "https://github.com/simonzxm/roadmap"
 repo_name = "simonzxm/roadmap"
+edit_uri = "edit/main/docs/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
@@ -153,7 +154,7 @@ features = [
   # will generate a button that allows the user to view the Markdown
   # code for the current page.
   # https://zensical.org/docs/setup/repository/#content-actions
-  #"content.action.view",
+  "content.action.view",
 
   # Code annotations allow you to add an icon with a tooltip to your
   # code blocks to provide explanations at crucial points.
