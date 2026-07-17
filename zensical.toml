@@ -352,7 +352,11 @@ note = "感谢您的反馈！"
 icon = "material/thumb-down-outline"
 name = "这个页面还可以改进"
 data = 0
-note = "感谢您的反馈！"
+note = """
+感谢您的反馈！<br>
+您可以在评论区告诉我们如何改进，<br>
+也可在 GitHub 上提交 Issue。
+"""
 
 # ----------------------------------------------------------------------------
 # In this section you can configure the Markdown extensions that are used when
